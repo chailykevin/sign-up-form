@@ -52,3 +52,41 @@ body {
 .left p a {
   color: white;
 }
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background-color: rgb(236, 235, 235);
+  width: 100%;
+}
+
+.right h2 {
+  font-size: 1.8rem;
+  width: 700px;
+}
+
+.right form {
+  margin: 20px -40px;
+  padding-left: 40px;
+  background-color: white;
+}
+
+.right button {
+  background-color: #596d48;
+  color: white;
+  width: 180px;
+  height: 40px;
+  border-radius: 6px;
+  border: 0px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.right a {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: 600;
+}
