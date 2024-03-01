@@ -63,30 +63,56 @@ body {
 }
 
 .right h2 {
-  font-size: 1.8rem;
-  width: 700px;
+  width: 80%;
+}
+
+.right form h2 {
+  font-size: 1.6rem;
+  margin-top: -15px;
+  padding-bottom: 15px;
 }
 
 .right form {
   margin: 20px -40px;
-  padding-left: 40px;
+  padding: 30px 40px;
   background-color: white;
-}
-
-.right button {
-  background-color: #596d48;
-  color: white;
-  width: 180px;
-  height: 40px;
-  border-radius: 6px;
-  border: 0px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  margin-top: 5px;
+  box-shadow: 0px 2px 8px -5px;
 }
 
 .right a {
   color: #596d48;
   text-decoration: none;
   font-weight: 600;
+}
+
+.right form .main-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.right form .forms {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.right form .forms input {
+  width: 100%;
+  border: 1.3px solid #e5e7eb;
+  border-radius: 4px;
+  height: 2rem;
+  margin-top: 5px;
+  padding-left: 0.5rem;
+}
+
+.right button {
+  background-color: #596d48;
+  color: white;
+  width: 180px;
+  min-height: 40px;
+  border-radius: 6px;
+  border: 0px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 5px;
 }
