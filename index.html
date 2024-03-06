@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="left">
@@ -31,12 +32,12 @@
         in your life to help you realize your deepest dreams. <br />Sign up now
         to get started. <br /><br />You know you want to.
       </h2>
-      <form>
+      <form id="form">
         <h2>Let's do this!</h2>
         <div class="main-form">
           <div class="forms">
             <label for="firstname">FIRST NAME</label>
-            <input type="text" id="firstname" name="firstname" />
+            <input type="text" id="firstname" name="firstname" required />
           </div>
           <div class="forms">
             <label for="lastname">LAST NAME</label>
@@ -44,23 +45,24 @@
           </div>
           <div class="forms">
             <label for="email">EMAIL</label>
-            <input type="email" id="email" name="email" />
+            <input type="email" id="email" name="email" required />
           </div>
           <div class="forms">
             <label for="phonenumber">PHONE NUMBER</label>
-            <input type="tel" id="phonenumber" name="phonenumber" />
+            <input type="tel" id="phonenumber" name="phonenumber" required />
           </div>
           <div class="forms">
             <label for="password">PASSWORD</label>
-            <input type="password" id="password" name="password" />
+            <input type="password" id="password" name="password" required />
+            <div class="error"><p class="error1"></p></div>
           </div>
           <div class="forms">
             <label for="confirmpass">CONFIRM PASSWORD</label>
-            <input type="text" id="confirmpass" name="confirmpass" />
+            <input type="password" id="confirmpass" name="pas" required />
           </div>
         </div>
       </form>
-      <button type="submit">Create Account</button>
+      <button type="submit" form="form">Create Account</button>
       <p>Already have an account? <a href="#">Log in</a></p>
     </div>
   </body>
